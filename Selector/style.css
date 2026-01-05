@@ -32,3 +32,30 @@ h1{
 #race-list li::marker{
   content:"x ";
 }
+
+#boxes p{
+  color: black;
+  background-color:gray;
+  height:100px;
+  width:100px;
+  margin:10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+#family > p{
+  color:blue
+}
+
+#stephen + p{
+  color:red;
+}
+
+#black ~ h4{
+  color:black;
+}
+
+#black ~ p{
+  padding-left: 25px;
+}
+
