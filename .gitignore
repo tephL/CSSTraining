@@ -1,0 +1,6 @@
+# not including all kinda images here
+
+*.png
+*.jpeg
+*.jpg
+*.gif
