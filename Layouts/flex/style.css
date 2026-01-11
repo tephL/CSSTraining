@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  
+}
+.boxes{
+  border:0.5px solid blue;
+  display:flex;
+  flex-direction: row;
+  
+  gap:1rem;
+  padding:10px;
+  
+  > *{
+    
+  }
+}
+
+.box{
+  border:0.5px solid;
+  height:50px;
+  flex: auto;
+}
