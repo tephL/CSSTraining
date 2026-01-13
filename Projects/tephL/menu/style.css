@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.menu{
+    margin: 250px;
+    display: inline-block;
+}
+
+.menubtn{
+    padding: 10px;
+    background-color: antiquewhite;
+    width: fit-content;
+}
+
+.menu:hover .options{
+    display: block;
+}
+
+.options{
+    width: fit-content;
+    display: none;
+}
+
+.options p{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

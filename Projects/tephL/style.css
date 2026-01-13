@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    background-color: rgb(99, 54, 13);
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    justify-content: space-between;
+}
+
+#title{
+    color: gold;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+
+    h3{
+        color: gold;
+    }
+
+    .buttons{
+        display: block;
+    }
+}
+
+main{
+    margin: 50px 0px 50px 0px;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.post{
+    height: fit-content;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.piccontainer{
+    width: 50%;
+    height: 200px;
+}
+
+.piccontainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    p{
+        text-align: justify;
+    }
+}
+
+.options{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.addtocart, .buy{
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.buy:hover{
+    background-color: rgb(5, 151, 5);
+}
+
+.addtocart:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.buy{
+    background-color: green;
+    color: white;
+}
