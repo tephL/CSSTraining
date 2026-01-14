@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+#main{
+    display: flex;
+    width: 70%;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#side{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1rem;
+    justify-content: center;
+    
+}
+
+.box{
+    border:1px solid black;
+    width: 80%;
+    height: fit-content;
+}
+
+.box2{
+    border:1px solid black;
+    width: 80%;
+    height: fit-content;
+    display: fixed;
+}
