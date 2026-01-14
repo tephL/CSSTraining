@@ -37,6 +37,9 @@ main{
   gap: 2rem;
   margin-bottom: 50px;
   width: 70%;
+  
+  flex: 1; 
+  overflow-y: auto;
 }
 
 .post{
