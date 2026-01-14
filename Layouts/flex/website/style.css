@@ -1,0 +1,22 @@
+header{
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+nav{
+  display: flex;
+  gap: 1rem;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+#content{
+  border: 1px solid;
+  width: 100px;
+}
